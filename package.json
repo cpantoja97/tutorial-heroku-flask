@@ -1,0 +1,20 @@
+{
+  "name": "tutorial-heroku-flask",
+  "version": "1.0.0",
+  "description": "API RESTful en Flask. Este es el código del taller para crear una API REST con Flask, se crea un CRUD básico y se almacenan los datos en base de datos utilizando el ORM SQLAlchemy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpantoja97/tutorial-heroku-flask.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpantoja97/tutorial-heroku-flask/issues"
+  },
+  "homepage": "https://github.com/cpantoja97/tutorial-heroku-flask#readme"
+}
