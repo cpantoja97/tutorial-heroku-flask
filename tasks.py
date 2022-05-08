@@ -1,5 +1,6 @@
 import celery
 import os
+import ffmpeg
 
 
 app = celery.Celery('example')
