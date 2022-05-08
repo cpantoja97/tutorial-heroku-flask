@@ -4,7 +4,7 @@ import os
 
 app = celery.Celery('example')
 
-app.conf.update(BROKER_URL=os.environ['CLOUDAMQP_URL'])
+app.conf.update(broker_url=os.environ['CLOUDAMQP_URL'])
 
 
 @app.task
